@@ -1,8 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/UgAAsy80)
-# COE2SH4-Lab3Template
+# COE2SH4-Lab3
 
-Section: [Insert your lab section]
+Completed for COMPENG 2SH4: Principles of Programming @ McMaster University
 
-MacID: [Insert your macID here]
+on October 20, 2023
 
-StudentID: [Insert your numerical student ID here]
+Template credit: Scott Chen
