@@ -379,18 +379,17 @@
 		char *str2 = "world";
 
 		swap(&str1, &str2);
-		char *actual[] = {};
+		char *actual[2]; // Specify size 2
 		actual[0] = str1;
 		actual[1] = str2;
 
-		char *expected[] = {};
+		char *expected[2]; // Specify size 2
 		expected[0] = "world";
 		expected[1] = "hello";
 
 		int i;
-		for (i=0;i<2;i++)
+		for (i = 0; i < 2; i++)
 			CuAssertStrEquals(tc, expected[i], actual[i]);
-
 	}
 
 	void TestQ2_swap2(CuTest *tc)
@@ -399,18 +398,17 @@
 		char *str2 = "ece";
 
 		swap(&str1, &str2);
-		char *actual[] = {};
+		char *actual[2]; // Specify size 2
 		actual[0] = str1;
 		actual[1] = str2;
 
-		char *expected[] = {};
+		char *expected[2]; // Specify size 2
 		expected[0] = "ece";
 		expected[1] = "mcmaster";
 
 		int i;
-		for (i=0;i<2;i++)
+		for (i = 0; i < 2; i++)
 			CuAssertStrEquals(tc, expected[i], actual[i]);
-
 	}
 
 	void TestQ2_sortbubble1(CuTest *tc) {
