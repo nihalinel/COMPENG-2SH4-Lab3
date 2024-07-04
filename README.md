@@ -6,7 +6,7 @@ November 10, 2023
 
 Template credit: Scott Chen
 
-Topics:
+# Topics:
 
 Lab Question 1 – Custom String Library Prototyping
 
